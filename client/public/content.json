@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "readingMinute": 12,
+      "title": "First Title",
+      "content": "first title first title first title first title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first title",
+      "contentImage": "https://www.rd.com/wp-content/uploads/2018/05/shutterstock_520106986.jpg?resize=700,466",
+      "author": "Hamid Hassan",
+      "releaseDate": "Sat Dec 10 2022",
+      "category": ["news", "web"],
+      "rating": 5
+    },
+    {
+      "readingMinute": 12,
+      "title": "First Title",
+      "content": "first title first title first title first title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first title",
+      "contentImage": "https://www.rd.com/wp-content/uploads/2018/05/shutterstock_520106986.jpg?resize=700,466",
+      "author": "Hamid Hassan",
+      "releaseDate": "Sat Dec 10 2022",
+      "category": ["news", "web"],
+      "rating": 3
+    },
+    {
+      "readingMinute": 12,
+      "title": "First Title",
+      "content": "first title first title first title first title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first title",
+      "contentImage": "https://www.rd.com/wp-content/uploads/2018/05/shutterstock_520106986.jpg?resize=700,466",
+      "author": "Hamid Hassan",
+      "releaseDate": "Sat Dec 10 2022",
+      "category": ["news", "web"],
+      "rating": 2
+    },
+    {
+      "readingMinute": 12,
+      "title": "First Title",
+      "content": "first title first title first title first title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first title",
+      "contentImage": "https://www.rd.com/wp-content/uploads/2018/05/shutterstock_520106986.jpg?resize=700,466",
+      "author": "Hamid Hassan",
+      "releaseDate": "Sat Dec 10 2022",
+      "category": ["news", "web"],
+      "rating": 1
+    },
+    {
+      "readingMinute": 12,
+      "title": "First Title",
+      "content": "first title first title first title first title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first title",
+      "contentImage": "https://www.rd.com/wp-content/uploads/2018/05/shutterstock_520106986.jpg?resize=700,466",
+      "author": "Hamid Hassan",
+      "releaseDate": "Sat Dec 10 2022",
+      "category": ["news", "web"],
+      "rating": 4
+    },
+    {
+      "readingMinute": 12,
+      "title": "First Title",
+      "content": "first title first title first title first title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first titlefirst title first title first title",
+      "contentImage": "https://www.rd.com/wp-content/uploads/2018/05/shutterstock_520106986.jpg?resize=700,466",
+      "author": "Hamid Hassan",
+      "releaseDate": "Sat Dec 10 2022",
+      "category": ["news", "web"],
+      "rating": 2
+    }
+  ]
+}
