@@ -1,4 +1,9 @@
-import { GET_CONTENT, SINGLE_CONTENT } from "../actionType/actionType";
+import {
+  ADD_CONTENT,
+  DELETE_CONTENT,
+  GET_CONTENT,
+  SINGLE_CONTENT,
+} from "../actionType/actionType";
 
 const initializeState = {
   data: [],
@@ -10,6 +15,16 @@ const contentReducer = (state = initializeState, action) => {
       return {
         ...state,
         data: action.payload,
+      };
+    case ADD_CONTENT:
+      return {
+        ...state,
+        data: [...state.data, action.payload],
+      };
+    case DELETE_CONTENT:
+      return {
+        ...state,
+        data: state.data.filter((data) => data._id !== action.payload),
       };
     case SINGLE_CONTENT:
       return {

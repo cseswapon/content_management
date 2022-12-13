@@ -29,9 +29,15 @@ const run = async () => {
     });
 
     app.get("/content/:id", async (req, res) => {
-        const id = req.params.id;
-      const cursor =await contentCollection.findOne({ _id: ObjectId(id) });
+      const id = req.params.id;
+      const cursor = await contentCollection.findOne({ _id: ObjectId(id) });
       res.send({ status: true, data: cursor });
+    });
+
+    app.delete("/content/:id", async (req, res) => {
+      const id = req.params.id;
+      const cursor = await contentCollection.deleteOne({ _id: ObjectId(id) });
+      res.status(200).send({ message: "Delete Successfully", data: cursor });
     });
 
     app.post("/content", async (req, res) => {

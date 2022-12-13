@@ -3,7 +3,7 @@ import { BiListPlus } from "react-icons/bi";
 import { Link, useLocation } from "react-router-dom";
 const Content = ({ content }) => {
   const { pathname } = useLocation();
-  console.log(pathname);
+  // console.log(content);
   return (
     <div className="shadow-lg rounded-3xl border  p-3 flex flex-col text-indigo-900">
       <div className="h-50 w-52 mx-auto">
@@ -18,15 +18,15 @@ const Content = ({ content }) => {
       </p>
       {pathname === "/" ? (
         <small className="block text-center">
-          {content?.content.length > 100
-            ? content?.content.slice(0, 100) + "..."
+          {content?.content?.length > 100
+            ? content?.content?.slice(0, 100) + "..."
             : content?.content}
         </small>
       ) : (
         <small className="block text-center">{content?.content}</small>
       )}
       <div className="flex-1">
-        <ul className="flex my-3">
+       {/*  <ul className="flex my-3">
           {content?.category?.map((feature, i) => {
             return (
               <li
@@ -37,7 +37,7 @@ const Content = ({ content }) => {
               </li>
             );
           })}
-        </ul>
+        </ul> */}
         <p className="text-sm my-3 text-orange-700">
           Author: {content?.author}
         </p>
