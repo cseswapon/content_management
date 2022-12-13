@@ -1,4 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
+import AddContent from "../pages/Dashboard/AddContent";
+import ListContent from "../pages/Dashboard/ListContent";
+import Dashboard from "../pages/layout/Dashboard";
 import Main from "../pages/layout/Main";
 import About from "../pages/Main/About";
 import Home from "../pages/Main/Home";
@@ -17,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "content/:id",
-        element:<SingleContent/>
+        element: <SingleContent />,
       },
       {
         path: "about",
@@ -26,6 +29,20 @@ const router = createBrowserRouter([
       {
         path: "top-rated",
         element: <TopRate />,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+    children: [
+      {
+        path: "/dashboard",
+        element: <AddContent />,
+      },
+      {
+        path: "list-content",
+        element: <ListContent />,
       },
     ],
   },

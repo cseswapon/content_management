@@ -3,7 +3,9 @@ import { useSelector } from "react-redux";
 import Content from "../component/Content/Content";
 
 const TopRate = () => {
-  const { data } = useSelector((state) => state);
+  const {
+    content: { data },
+  } = useSelector((state) => state);
   console.log(data.sort((a, b) => a.rating - b.rating));
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-7xl gap-14 mx-auto my-10">

@@ -38,11 +38,11 @@ const Navbar = () => {
               <IoIosListBox className="text-white" />
             </li>
           </Link>
-          <Link to="/cart">
+          {/* <Link to="/cart">
             <li title="cart" className="bg-red-500 p-2 rounded-full">
               <BsFillCartFill className="text-white " />
             </li>
-          </Link>
+          </Link> */}
         </ul>
       </nav>
     );
